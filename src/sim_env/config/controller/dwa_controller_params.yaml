@@ -1,5 +1,4 @@
 DWAController:
-
 # Robot Configuration Parameters
   max_vel_x: 0.46
   min_vel_x: 0.00
@@ -25,19 +24,16 @@ DWAController:
 
 # Forward Simulation Parameters
   sim_time: 2.0
-  vx_samples: 30
+  vx_samples: 20
   vy_samples: 0
-  vth_samples: 50
+  vth_samples: 40
   controller_frequency: 10.0
 
 # Trajectory Scoring Parameters
-  # path_distance_bias: 32.0
-  # goal_distance_bias: 20.0
-  # occdist_scale: 0.05
-  path_distance_bias: 1000.0
-  goal_distance_bias: 5.0
-  occdist_scale: 0.01
-  forward_point_distance: 0.20
+  path_distance_bias: 32.0
+  goal_distance_bias: 20.0
+  occdist_scale: 0.02
+  forward_point_distance: 0.325
   stop_time_buffer: 0.2
   scaling_speed: 0.25
   max_scaling_factor: 0.2
