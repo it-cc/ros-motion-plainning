@@ -10,12 +10,12 @@ meter_scoring: true
 
 # robot base
 robot_base_frame: base_footprint
-robot_radius: 0.2
+robot_radius: 0.15
 # footprint: [[-0.21, -0.165], [-0.21, 0.165], [0.21, 0.165], [0.21, -0.165]]
 # footprint_padding: 0.05
 
-update_frequency: 0.5
-publish_frequency: 0.5
+update_frequency: 2
+publish_frequency: 2
 
 ### Sensor management parameters ###
 obstacle_layer:
@@ -37,8 +37,8 @@ obstacle_layer:
 
 inflation_layer:
   enabled:              true
-  cost_scaling_factor:  10  # exponential rate at which the obstacle cost drops off - increased for fixed boundary
-  inflation_radius:     0.3  # max. distance from an obstacle at which costs are incurred for planning paths
+  cost_scaling_factor:  8  # exponential rate at which the obstacle cost drops off - increased for fixed boundary
+  inflation_radius:     0.4  # max. distance from an obstacle at which costs are incurred for planning paths
 
 static_map:
   enabled:              true
