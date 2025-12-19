@@ -7,6 +7,7 @@ Panels:
         - /Maps1/expand_map1
         - /Path_global1
         - /Path_local1
+        - /Map_local1
         - /Map_global1
       Splitter Ratio: 0.5
     Tree Height: 610
@@ -373,7 +374,7 @@ Visualization Manager:
     - Alpha: 1
       Buffer Length: 1
       Class: rviz/Path
-      Color: 32; 74; 135
+      Color: 78; 154; 6
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
@@ -415,12 +416,22 @@ Visualization Manager:
       Radius: 0.029999999329447746
       Shaft Diameter: 0.10000000149011612
       Shaft Length: 0.10000000149011612
-      Topic: /move_base/PathPlanner/plan
+      Topic: /move_base/DWAController/local_plan
       Unreliable: false
       Value: true
     - Alpha: 0.699999988079071
       Class: rviz/Map
       Color Scheme: costmap
+      Draw Behind: false
+      Enabled: true
+      Name: Map_local
+      Topic: /move_base/local_costmap/costmap
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
       Draw Behind: false
       Enabled: true
       Name: Map_global
@@ -451,7 +462,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 13.661633491516113
+      Distance: 10.399017333984375
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -459,15 +470,15 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -1.4448587894439697
-        Y: -6.188672065734863
-        Z: -3.595731496810913
+        X: -2.221693515777588
+        Y: -2.1688308715820312
+        Z: -4.070131778717041
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.3797965049743652
+      Pitch: 1.4797964096069336
       Target Frame: <Fixed Frame>
       Yaw: 1.5699957609176636
     Saved: ~
