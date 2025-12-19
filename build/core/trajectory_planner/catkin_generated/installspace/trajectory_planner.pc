@@ -1,0 +1,8 @@
+prefix=/home/cc/ros/project250529/install
+
+Name: trajectory_planner
+Description: Description of trajectory_planner
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltrajectory_generation
+Requires: common path_processor

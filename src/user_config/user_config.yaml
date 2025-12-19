@@ -1,0 +1,29 @@
+map: "warehouse"
+world: "warehouse"
+rviz_file: "sim_env.rviz"
+
+robots_config:
+  - robot1_type: "turtlebot3_waffle"
+    robot1_location_method: "amcl"
+    robot1_global_planner: "jps"
+    robot1_local_planner: "dwa"
+    robot1_optimizer: ""
+    robot1_x_pos: "0.0"
+    robot1_y_pos: "0.0"
+    robot1_z_pos: "0.0"
+    robot1_yaw: "0.0"
+
+# Ubuntu20.04 + ROS Noetic(双系统)
+
+# * global planner
+#   * graph_planner
+#     * jps
+
+# local_planner
+#  * dwa
+#   * rpp
+
+#plugins:
+  # pedestrians: "pedestrian_config.yaml"
+  # obstacles: "obstacles_config.yaml"
+  # map_layers: "map_layers_config.yaml"

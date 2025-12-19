@@ -1,0 +1,8 @@
+prefix=/home/cc/ros/project250529/install
+
+Name: path_processor
+Description: Description of path_processor
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpath_processor
+Requires: 
