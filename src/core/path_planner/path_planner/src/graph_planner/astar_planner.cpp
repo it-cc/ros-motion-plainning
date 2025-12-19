@@ -135,10 +135,7 @@ bool AStarPathPlanner::plan(const Point3d& start, const Point3d& goal, Points3d&
 
       // next node hit the boundary or obstacle
       // prevent planning failed when the current within inflation
-      // if (costmap_->getCharMap()[node_new.id()] >= costmap_2d::LETHAL_OBSTACLE * obstacle_factor_)
-      if ((node_new.id() < 0) || (node_new.id() >= map_size_) ||
-      (costmap_->getCharMap()[node_new.id()] >= costmap_2d::LETHAL_OBSTACLE * obstacle_factor_ &&
-      costmap_->getCharMap()[node_new.id()] >= costmap_->getCharMap()[current.id()]))
+      if (costmap_->getCharMap()[node_new.id()] >= costmap_2d::LETHAL_OBSTACLE * obstacle_factor_)
         continue;
 
       // if using dijkstra implementation, do not consider heuristics cost
