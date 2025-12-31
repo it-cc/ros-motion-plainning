@@ -4,14 +4,14 @@ origin_z: 0.0
 z_resolution: 1
 z_voxels: 2
 publish_voxel_map: false
-transform_tolerance: 0.5
+transform_tolerance: 1
 meter_scoring: true
 
 # robot base
 robot_base_frame: base_footprint
-robot_radius: 0.15
+robot_radius: 0.2
 
-update_frequency: 2.0
+update_frequency: 1.0
 publish_frequency: 1.0
 
 ### Sensor management parameters ###
