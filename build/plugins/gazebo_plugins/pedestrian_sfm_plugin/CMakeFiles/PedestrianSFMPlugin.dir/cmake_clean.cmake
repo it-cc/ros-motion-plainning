@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/libPedestrianSFMPlugin.pdb"
-  "/home/cc/ros/project250529/devel/lib/libPedestrianSFMPlugin.so"
+  "/home/cc/ros_ws/project250529/devel/lib/libPedestrianSFMPlugin.pdb"
+  "/home/cc/ros_ws/project250529/devel/lib/libPedestrianSFMPlugin.so"
   "CMakeFiles/PedestrianSFMPlugin.dir/src/pedestrian_sfm_plugin.cpp.o"
 )
 

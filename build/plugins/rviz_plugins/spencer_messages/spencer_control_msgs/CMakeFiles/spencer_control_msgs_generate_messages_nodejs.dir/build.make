@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ros/project250529/src
+CMAKE_SOURCE_DIR = /home/cc/ros_ws/project250529/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ros/project250529/build
+CMAKE_BINARY_DIR = /home/cc/ros_ws/project250529/build
 
 # Utility rule file for spencer_control_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/progress.make
 
-plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js
+plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js
 
 
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg/ComponentStatus.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from spencer_control_msgs/ComponentStatus.msg"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg/ComponentStatus.msg -Ispencer_control_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_control_msgs -o /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg/ComponentStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from spencer_control_msgs/ComponentStatus.msg"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg/ComponentStatus.msg -Ispencer_control_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_control_msgs -o /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg
 
 spencer_control_msgs_generate_messages_nodejs: plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs
-spencer_control_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js
+spencer_control_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js
 spencer_control_msgs_generate_messages_nodejs: plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : spencer_control_msgs_generate_messages_nodejs
@@ -73,10 +73,10 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/cc/ros/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros/project250529/src /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/cc/ros/project250529/build /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ros_ws/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros_ws/project250529/src /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/cc/ros_ws/project250529/build /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/depend
 

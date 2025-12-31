@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp"
-  "/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp"
-  "/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp"
-  "/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp"
+  "/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp"
+  "/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp"
+  "/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp"
+  "/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp"
   "CMakeFiles/spencer_vision_msgs_generate_messages_lisp"
 )
 

@@ -1,8 +1,8 @@
-prefix=/home/cc/ros/project250529/devel
+prefix=/home/cc/ros_ws/project250529/devel
 
 Name: pedsim_msgs
 Description: Description of pedsim_msgs
 Version: 0.0.2
-Cflags: -I/home/cc/ros/project250529/devel/include
+Cflags: -I/home/cc/ros_ws/project250529/devel/include
 Libs: -L${prefix}/lib 
 Requires: roscpp rospy message_runtime std_msgs geometry_msgs sensor_msgs nav_msgs

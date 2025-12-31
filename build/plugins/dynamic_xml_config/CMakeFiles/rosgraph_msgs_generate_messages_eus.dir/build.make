@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ros/project250529/src
+CMAKE_SOURCE_DIR = /home/cc/ros_ws/project250529/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ros/project250529/build
+CMAKE_BINARY_DIR = /home/cc/ros_ws/project250529/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ plugins/dynamic_xml_config/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/bu
 .PHONY : plugins/dynamic_xml_config/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 
 plugins/dynamic_xml_config/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	cd /home/cc/ros/project250529/build/plugins/dynamic_xml_config && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/cc/ros_ws/project250529/build/plugins/dynamic_xml_config && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : plugins/dynamic_xml_config/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 plugins/dynamic_xml_config/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend:
-	cd /home/cc/ros/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros/project250529/src /home/cc/ros/project250529/src/plugins/dynamic_xml_config /home/cc/ros/project250529/build /home/cc/ros/project250529/build/plugins/dynamic_xml_config /home/cc/ros/project250529/build/plugins/dynamic_xml_config/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ros_ws/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros_ws/project250529/src /home/cc/ros_ws/project250529/src/plugins/dynamic_xml_config /home/cc/ros_ws/project250529/build /home/cc/ros_ws/project250529/build/plugins/dynamic_xml_config /home/cc/ros_ws/project250529/build/plugins/dynamic_xml_config/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/dynamic_xml_config/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 

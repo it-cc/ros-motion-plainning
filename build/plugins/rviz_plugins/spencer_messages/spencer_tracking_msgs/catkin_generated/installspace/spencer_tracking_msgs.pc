@@ -1,4 +1,4 @@
-prefix=/home/cc/ros/project250529/install
+prefix=/home/cc/ros_ws/project250529/install
 
 Name: spencer_tracking_msgs
 Description: Description of spencer_tracking_msgs

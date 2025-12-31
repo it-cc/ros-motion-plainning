@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/cc/ros/project250529/src/plugins/gazebo_plugins/pedestrian_sfm_plugin/srv/ped_state.srv"
+services_str = "/home/cc/ros_ws/project250529/src/plugins/gazebo_plugins/pedestrian_sfm_plugin/srv/ped_state.srv"
 pkg_name = "gazebo_sfm_plugin"
 dependencies_str = ""
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

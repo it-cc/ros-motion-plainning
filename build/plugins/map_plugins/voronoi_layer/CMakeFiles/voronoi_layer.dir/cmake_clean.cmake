@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/libvoronoi_layer.pdb"
-  "/home/cc/ros/project250529/devel/lib/libvoronoi_layer.so"
+  "/home/cc/ros_ws/project250529/devel/lib/libvoronoi_layer.pdb"
+  "/home/cc/ros_ws/project250529/devel/lib/libvoronoi_layer.so"
   "CMakeFiles/voronoi_layer.dir/src/dynamicvoronoi.cpp.o"
   "CMakeFiles/voronoi_layer.dir/src/voronoi_layer.cpp.o"
 )

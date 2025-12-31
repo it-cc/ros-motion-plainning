@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "voronoi_layer;common;path_processor;trajectory_planner".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "path_planner"
-PROJECT_SPACE_DIR = "/home/cc/ros/project250529/install"
+PROJECT_SPACE_DIR = "/home/cc/ros_ws/project250529/install"
 PROJECT_VERSION = "0.0.0"

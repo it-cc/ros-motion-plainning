@@ -1,4 +1,4 @@
-prefix=/home/cc/ros/project250529/devel
+prefix=/home/cc/ros_ws/project250529/devel
 
 Name: sim_env
 Description: Description of sim_env

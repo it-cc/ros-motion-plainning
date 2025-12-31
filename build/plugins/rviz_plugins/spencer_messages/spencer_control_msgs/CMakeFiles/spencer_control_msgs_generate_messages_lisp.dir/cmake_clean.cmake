@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_control_msgs/msg/ComponentStatus.lisp"
+  "/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_control_msgs/msg/ComponentStatus.lisp"
   "CMakeFiles/spencer_control_msgs_generate_messages_lisp"
 )
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ros/project250529/src/core/controller/controller
+# Install script for directory: /home/cc/ros_ws/project250529/src/core/controller/controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ros/project250529/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ros_ws/project250529/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros/project250529/build/core/controller/controller/catkin_generated/installspace/controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros_ws/project250529/build/core/controller/controller/catkin_generated/installspace/controller.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/controller/cmake" TYPE FILE FILES
-    "/home/cc/ros/project250529/build/core/controller/controller/catkin_generated/installspace/controllerConfig.cmake"
-    "/home/cc/ros/project250529/build/core/controller/controller/catkin_generated/installspace/controllerConfig-version.cmake"
+    "/home/cc/ros_ws/project250529/build/core/controller/controller/catkin_generated/installspace/controllerConfig.cmake"
+    "/home/cc/ros_ws/project250529/build/core/controller/controller/catkin_generated/installspace/controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/controller" TYPE FILE FILES "/home/cc/ros/project250529/src/core/controller/controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/controller" TYPE FILE FILES "/home/cc/ros_ws/project250529/src/core/controller/controller/package.xml")
 endif()
 

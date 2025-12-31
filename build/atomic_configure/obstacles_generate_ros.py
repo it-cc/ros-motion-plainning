@@ -3,7 +3,7 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/cc/ros/project250529/src/plugins/dynamic_xml_config/plugins/obstacles_generate_ros.py'
+python_script = '/home/cc/ros_ws/project250529/src/plugins/dynamic_xml_config/plugins/obstacles_generate_ros.py'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,

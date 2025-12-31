@@ -1,8 +1,8 @@
-prefix=/home/cc/ros/project250529/devel
+prefix=/home/cc/ros_ws/project250529/devel
 
 Name: trajectory_planner
 Description: Description of trajectory_planner
 Version: 0.0.0
-Cflags: -I/home/cc/ros/project250529/src/core/trajectory_planner/include
+Cflags: -I/home/cc/ros_ws/project250529/src/core/trajectory_planner/include
 Libs: -L${prefix}/lib -ltrajectory_generation
 Requires: common path_processor

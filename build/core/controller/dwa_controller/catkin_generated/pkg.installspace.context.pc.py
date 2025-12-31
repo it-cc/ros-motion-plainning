@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "base_local_planner;dynamic_reconfigure;nav_msgs;pluginlib;sensor_msgs;roscpp;tf2;tf2_ros;common".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-ldwa_controller".split(';') if "-ldwa_controller" != "" else []
 PROJECT_NAME = "dwa_controller"
-PROJECT_SPACE_DIR = "/home/cc/ros/project250529/install"
+PROJECT_SPACE_DIR = "/home/cc/ros_ws/project250529/install"
 PROJECT_VERSION = "1.17.1"

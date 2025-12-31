@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/include/gazebo_sfm_plugin/ped_state.h"
+  "/home/cc/ros_ws/project250529/devel/include/gazebo_sfm_plugin/ped_state.h"
   "CMakeFiles/gazebo_sfm_plugin_generate_messages_cpp"
 )
 

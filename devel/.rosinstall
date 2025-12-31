@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/cc/ros/project250529/devel/setup.sh
+    local-name: /home/cc/ros_ws/project250529/devel/setup.sh

@@ -67,14 +67,14 @@ set(voronoi_layer_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(voronoi_layer_SOURCE_PREFIX /home/cc/ros/project250529/src/plugins/map_plugins/voronoi_layer)
-  set(voronoi_layer_DEVEL_PREFIX /home/cc/ros/project250529/devel)
+  set(voronoi_layer_SOURCE_PREFIX /home/cc/ros_ws/project250529/src/plugins/map_plugins/voronoi_layer)
+  set(voronoi_layer_DEVEL_PREFIX /home/cc/ros_ws/project250529/devel)
   set(voronoi_layer_INSTALL_PREFIX "")
   set(voronoi_layer_PREFIX ${voronoi_layer_DEVEL_PREFIX})
 else()
   set(voronoi_layer_SOURCE_PREFIX "")
   set(voronoi_layer_DEVEL_PREFIX "")
-  set(voronoi_layer_INSTALL_PREFIX /home/cc/ros/project250529/install)
+  set(voronoi_layer_INSTALL_PREFIX /home/cc/ros_ws/project250529/install)
   set(voronoi_layer_PREFIX ${voronoi_layer_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(voronoi_layer_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/cc/ros/project250529/src/plugins/map_plugins/voronoi_layer/include " STREQUAL " ")
+if(NOT "/home/cc/ros_ws/project250529/src/plugins/map_plugins/voronoi_layer/include " STREQUAL " ")
   set(voronoi_layer_INCLUDE_DIRS "")
-  set(_include_dirs "/home/cc/ros/project250529/src/plugins/map_plugins/voronoi_layer/include")
+  set(_include_dirs "/home/cc/ros_ws/project250529/src/plugins/map_plugins/voronoi_layer/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/cc/ros/project250529/src/plugins/map_plugins/voronoi_layer/include
         message(FATAL_ERROR "Project 'voronoi_layer' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'voronoi_layer' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/cc/ros/project250529/src/plugins/map_plugins/voronoi_layer/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'voronoi_layer' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/cc/ros_ws/project250529/src/plugins/map_plugins/voronoi_layer/${idir}'.  ${_report}")
     endif()
     _list_append_unique(voronoi_layer_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cc/ros/project250529/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/cc/ros_ws/project250529/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

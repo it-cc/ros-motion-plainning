@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ros/project250529/src
+CMAKE_SOURCE_DIR = /home/cc/ros_ws/project250529/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ros/project250529/build
+CMAKE_BINARY_DIR = /home/cc/ros_ws/project250529/build
 
 # Utility rule file for costmap_2d_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ core/common/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build: costmap_2d
 .PHONY : core/common/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build
 
 core/common/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean:
-	cd /home/cc/ros/project250529/build/core/common && $(CMAKE_COMMAND) -P CMakeFiles/costmap_2d_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/cc/ros_ws/project250529/build/core/common && $(CMAKE_COMMAND) -P CMakeFiles/costmap_2d_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : core/common/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/clean
 
 core/common/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/depend:
-	cd /home/cc/ros/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros/project250529/src /home/cc/ros/project250529/src/core/common /home/cc/ros/project250529/build /home/cc/ros/project250529/build/core/common /home/cc/ros/project250529/build/core/common/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ros_ws/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros_ws/project250529/src /home/cc/ros_ws/project250529/src/core/common /home/cc/ros_ws/project250529/build /home/cc/ros_ws/project250529/build/core/common /home/cc/ros_ws/project250529/build/core/common/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : core/common/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/depend
 

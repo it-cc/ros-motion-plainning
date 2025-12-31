@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "spencer_tracking_rviz_plugin"
-PROJECT_SPACE_DIR = "/home/cc/ros/project250529/devel"
+PROJECT_SPACE_DIR = "/home/cc/ros_ws/project250529/devel"
 PROJECT_VERSION = "1.0.8"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/librpp_controller.pdb"
-  "/home/cc/ros/project250529/devel/lib/librpp_controller.so"
+  "/home/cc/ros_ws/project250529/devel/lib/librpp_controller.pdb"
+  "/home/cc/ros_ws/project250529/devel/lib/librpp_controller.so"
   "CMakeFiles/rpp_controller.dir/src/rpp_controller.cpp.o"
 )
 

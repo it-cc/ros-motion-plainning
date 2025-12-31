@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/libdwa_controller.pdb"
-  "/home/cc/ros/project250529/devel/lib/libdwa_controller.so"
+  "/home/cc/ros_ws/project250529/devel/lib/libdwa_controller.pdb"
+  "/home/cc/ros_ws/project250529/devel/lib/libdwa_controller.so"
   "CMakeFiles/dwa_controller.dir/src/dwa.cpp.o"
   "CMakeFiles/dwa_controller.dir/src/dwa_controller.cpp.o"
 )

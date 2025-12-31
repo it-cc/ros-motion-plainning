@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/libpath_planner.pdb"
-  "/home/cc/ros/project250529/devel/lib/libpath_planner.so"
+  "/home/cc/ros_ws/project250529/devel/lib/libpath_planner.pdb"
+  "/home/cc/ros_ws/project250529/devel/lib/libpath_planner.so"
   "CMakeFiles/path_planner.dir/src/graph_planner/astar_planner.cpp.o"
   "CMakeFiles/path_planner.dir/src/graph_planner/jps_planner.cpp.o"
   "CMakeFiles/path_planner.dir/src/path_planner.cpp.o"

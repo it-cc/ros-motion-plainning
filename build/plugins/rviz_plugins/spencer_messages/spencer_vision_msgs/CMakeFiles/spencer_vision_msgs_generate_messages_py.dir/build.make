@@ -43,66 +43,66 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ros/project250529/src
+CMAKE_SOURCE_DIR = /home/cc/ros_ws/project250529/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ros/project250529/build
+CMAKE_BINARY_DIR = /home/cc/ros_ws/project250529/build
 
 # Utility rule file for spencer_vision_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/progress.make
 
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py
 
 
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG spencer_vision_msgs/PersonImage"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG spencer_vision_msgs/PersonImage"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG spencer_vision_msgs/PersonImages"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG spencer_vision_msgs/PersonImages"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG spencer_vision_msgs/PersonROI"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG spencer_vision_msgs/PersonROI"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG spencer_vision_msgs/PersonROIs"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG spencer_vision_msgs/PersonROIs"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python msg __init__.py for spencer_vision_msgs"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg --initpy
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python msg __init__.py for spencer_vision_msgs"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg --initpy
 
 spencer_vision_msgs_generate_messages_py: plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py
-spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py
-spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py
-spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py
-spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py
-spencer_vision_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py
+spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py
+spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py
+spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py
+spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py
+spencer_vision_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py
 spencer_vision_msgs_generate_messages_py: plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/build.make
 
 .PHONY : spencer_vision_msgs_generate_messages_py
@@ -113,10 +113,10 @@ plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vis
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/clean:
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/depend:
-	cd /home/cc/ros/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros/project250529/src /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros/project250529/build /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ros_ws/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros_ws/project250529/src /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros_ws/project250529/build /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_py.dir/depend
 

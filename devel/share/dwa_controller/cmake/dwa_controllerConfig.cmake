@@ -67,14 +67,14 @@ set(dwa_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(dwa_controller_SOURCE_PREFIX /home/cc/ros/project250529/src/core/controller/dwa_controller)
-  set(dwa_controller_DEVEL_PREFIX /home/cc/ros/project250529/devel)
+  set(dwa_controller_SOURCE_PREFIX /home/cc/ros_ws/project250529/src/core/controller/dwa_controller)
+  set(dwa_controller_DEVEL_PREFIX /home/cc/ros_ws/project250529/devel)
   set(dwa_controller_INSTALL_PREFIX "")
   set(dwa_controller_PREFIX ${dwa_controller_DEVEL_PREFIX})
 else()
   set(dwa_controller_SOURCE_PREFIX "")
   set(dwa_controller_DEVEL_PREFIX "")
-  set(dwa_controller_INSTALL_PREFIX /home/cc/ros/project250529/install)
+  set(dwa_controller_INSTALL_PREFIX /home/cc/ros_ws/project250529/install)
   set(dwa_controller_PREFIX ${dwa_controller_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(dwa_controller_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/cc/ros/project250529/devel/include;/home/cc/ros/project250529/src/core/controller/dwa_controller/include " STREQUAL " ")
+if(NOT "/home/cc/ros_ws/project250529/devel/include;/home/cc/ros_ws/project250529/src/core/controller/dwa_controller/include " STREQUAL " ")
   set(dwa_controller_INCLUDE_DIRS "")
-  set(_include_dirs "/home/cc/ros/project250529/devel/include;/home/cc/ros/project250529/src/core/controller/dwa_controller/include")
+  set(_include_dirs "/home/cc/ros_ws/project250529/devel/include;/home/cc/ros_ws/project250529/src/core/controller/dwa_controller/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/dwa_local_planner " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/cc/ros/project250529/devel/include;/home/cc/ros/project250529/src/
         message(FATAL_ERROR "Project 'dwa_controller' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'dwa_controller' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/cc/ros/project250529/src/core/controller/dwa_controller/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'dwa_controller' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/cc/ros_ws/project250529/src/core/controller/dwa_controller/${idir}'.  ${_report}")
     endif()
     _list_append_unique(dwa_controller_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cc/ros/project250529/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/cc/ros_ws/project250529/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

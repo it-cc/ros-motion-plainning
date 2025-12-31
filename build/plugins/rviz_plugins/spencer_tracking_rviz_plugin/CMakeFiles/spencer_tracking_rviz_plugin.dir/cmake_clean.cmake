@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/libspencer_tracking_rviz_plugin.pdb"
-  "/home/cc/ros/project250529/devel/lib/libspencer_tracking_rviz_plugin.so"
+  "/home/cc/ros_ws/project250529/devel/lib/libspencer_tracking_rviz_plugin.pdb"
+  "/home/cc/ros_ws/project250529/devel/lib/libspencer_tracking_rviz_plugin.so"
   "CMakeFiles/spencer_tracking_rviz_plugin.dir/src/detected_persons_display.cpp.o"
   "CMakeFiles/spencer_tracking_rviz_plugin.dir/src/human_attributes_display.cpp.o"
   "CMakeFiles/spencer_tracking_rviz_plugin.dir/src/moc_additional_topic_subscriber.cpp.o"

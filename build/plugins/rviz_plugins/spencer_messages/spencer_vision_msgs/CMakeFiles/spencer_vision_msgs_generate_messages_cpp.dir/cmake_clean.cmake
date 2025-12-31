@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/include/spencer_vision_msgs/PersonImage.h"
-  "/home/cc/ros/project250529/devel/include/spencer_vision_msgs/PersonImages.h"
-  "/home/cc/ros/project250529/devel/include/spencer_vision_msgs/PersonROI.h"
-  "/home/cc/ros/project250529/devel/include/spencer_vision_msgs/PersonROIs.h"
+  "/home/cc/ros_ws/project250529/devel/include/spencer_vision_msgs/PersonImage.h"
+  "/home/cc/ros_ws/project250529/devel/include/spencer_vision_msgs/PersonImages.h"
+  "/home/cc/ros_ws/project250529/devel/include/spencer_vision_msgs/PersonROI.h"
+  "/home/cc/ros_ws/project250529/devel/include/spencer_vision_msgs/PersonROIs.h"
   "CMakeFiles/spencer_vision_msgs_generate_messages_cpp"
 )
 

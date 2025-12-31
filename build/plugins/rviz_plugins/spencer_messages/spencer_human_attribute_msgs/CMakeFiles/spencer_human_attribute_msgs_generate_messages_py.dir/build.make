@@ -43,52 +43,52 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ros/project250529/src
+CMAKE_SOURCE_DIR = /home/cc/ros_ws/project250529/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ros/project250529/build
+CMAKE_BINARY_DIR = /home/cc/ros_ws/project250529/build
 
 # Utility rule file for spencer_human_attribute_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/progress.make
 
-plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py
-plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py
-plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py
-plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py
+plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py
+plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py
+plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py
+plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py
 
 
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/CategoricalAttribute.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG spencer_human_attribute_msgs/CategoricalAttribute"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/CategoricalAttribute.msg -Ispencer_human_attribute_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_human_attribute_msgs -o /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/CategoricalAttribute.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG spencer_human_attribute_msgs/CategoricalAttribute"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/CategoricalAttribute.msg -Ispencer_human_attribute_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_human_attribute_msgs -o /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg
 
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/ScalarAttribute.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG spencer_human_attribute_msgs/ScalarAttribute"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/ScalarAttribute.msg -Ispencer_human_attribute_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_human_attribute_msgs -o /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/ScalarAttribute.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG spencer_human_attribute_msgs/ScalarAttribute"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/ScalarAttribute.msg -Ispencer_human_attribute_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_human_attribute_msgs -o /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg
 
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/HumanAttributes.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/CategoricalAttribute.msg
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/ScalarAttribute.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG spencer_human_attribute_msgs/HumanAttributes"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/HumanAttributes.msg -Ispencer_human_attribute_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_human_attribute_msgs -o /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/HumanAttributes.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/CategoricalAttribute.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/ScalarAttribute.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG spencer_human_attribute_msgs/HumanAttributes"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg/HumanAttributes.msg -Ispencer_human_attribute_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_human_attribute_msgs -o /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg
 
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py
-/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for spencer_human_attribute_msgs"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg --initpy
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py
+/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for spencer_human_attribute_msgs"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg --initpy
 
 spencer_human_attribute_msgs_generate_messages_py: plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py
-spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py
-spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py
-spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py
-spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py
+spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_CategoricalAttribute.py
+spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_ScalarAttribute.py
+spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/_HumanAttributes.py
+spencer_human_attribute_msgs_generate_messages_py: /home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_human_attribute_msgs/msg/__init__.py
 spencer_human_attribute_msgs_generate_messages_py: plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/build.make
 
 .PHONY : spencer_human_attribute_msgs_generate_messages_py
@@ -99,10 +99,10 @@ plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/sp
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/clean:
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/depend:
-	cd /home/cc/ros/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros/project250529/src /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs /home/cc/ros/project250529/build /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ros_ws/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros_ws/project250529/src /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs /home/cc/ros_ws/project250529/build /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/CMakeFiles/spencer_human_attribute_msgs_generate_messages_py.dir/depend
 

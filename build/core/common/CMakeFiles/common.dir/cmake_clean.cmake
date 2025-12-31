@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/libcommon.pdb"
-  "/home/cc/ros/project250529/devel/lib/libcommon.so"
+  "/home/cc/ros_ws/project250529/devel/lib/libcommon.pdb"
+  "/home/cc/ros_ws/project250529/devel/lib/libcommon.so"
   "CMakeFiles/common.dir/src/geometry/collision_checker.cpp.o"
   "CMakeFiles/common.dir/src/geometry/curve/bezier_curve.cpp.o"
   "CMakeFiles/common.dir/src/geometry/curve/bspline_curve.cpp.o"

@@ -18,8 +18,8 @@
                 "CMAKE_POLICY_DEFAULT_CMP0091": "NEW",
                 "CMAKE_BUILD_TYPE": "Release"
             },
-            "toolchainFile": "/home/cc/ros/project250529/3rd/build/build/Release/generators/conan_toolchain.cmake",
-            "binaryDir": "/home/cc/ros/project250529/3rd/build/build/Release"
+            "toolchainFile": "/home/cc/ros_ws/project250529/3rd/build/build/Release/generators/conan_toolchain.cmake",
+            "binaryDir": "/home/cc/ros_ws/project250529/3rd/build/build/Release"
         }
     ],
     "buildPresets": [

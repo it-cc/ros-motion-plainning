@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py"
-  "/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py"
-  "/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py"
-  "/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py"
-  "/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py"
+  "/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py"
+  "/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py"
+  "/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py"
+  "/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py"
+  "/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py"
   "CMakeFiles/spencer_vision_msgs_generate_messages_py"
 )
 

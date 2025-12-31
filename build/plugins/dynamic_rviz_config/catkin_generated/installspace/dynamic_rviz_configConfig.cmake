@@ -67,14 +67,14 @@ set(dynamic_rviz_config_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dynamic_rviz_config_SOURCE_PREFIX /home/cc/ros/project250529/src/plugins/dynamic_rviz_config)
-  set(dynamic_rviz_config_DEVEL_PREFIX /home/cc/ros/project250529/devel)
+  set(dynamic_rviz_config_SOURCE_PREFIX /home/cc/ros_ws/project250529/src/plugins/dynamic_rviz_config)
+  set(dynamic_rviz_config_DEVEL_PREFIX /home/cc/ros_ws/project250529/devel)
   set(dynamic_rviz_config_INSTALL_PREFIX "")
   set(dynamic_rviz_config_PREFIX ${dynamic_rviz_config_DEVEL_PREFIX})
 else()
   set(dynamic_rviz_config_SOURCE_PREFIX "")
   set(dynamic_rviz_config_DEVEL_PREFIX "")
-  set(dynamic_rviz_config_INSTALL_PREFIX /home/cc/ros/project250529/install)
+  set(dynamic_rviz_config_INSTALL_PREFIX /home/cc/ros_ws/project250529/install)
   set(dynamic_rviz_config_PREFIX ${dynamic_rviz_config_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cc/ros/project250529/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/cc/ros_ws/project250529/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

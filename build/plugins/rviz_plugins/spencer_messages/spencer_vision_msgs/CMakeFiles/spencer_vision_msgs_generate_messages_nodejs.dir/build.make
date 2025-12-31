@@ -43,56 +43,56 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ros/project250529/src
+CMAKE_SOURCE_DIR = /home/cc/ros_ws/project250529/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ros/project250529/build
+CMAKE_BINARY_DIR = /home/cc/ros_ws/project250529/build
 
 # Utility rule file for spencer_vision_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/progress.make
 
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js
 
 
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from spencer_vision_msgs/PersonImage.msg"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from spencer_vision_msgs/PersonImage.msg"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from spencer_vision_msgs/PersonImages.msg"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from spencer_vision_msgs/PersonImages.msg"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from spencer_vision_msgs/PersonROI.msg"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from spencer_vision_msgs/PersonROI.msg"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
-/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from spencer_vision_msgs/PersonROIs.msg"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
+/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from spencer_vision_msgs/PersonROIs.msg"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg
 
 spencer_vision_msgs_generate_messages_nodejs: plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs
-spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js
-spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js
-spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js
-spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js
+spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js
+spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js
+spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js
+spencer_vision_msgs_generate_messages_nodejs: /home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js
 spencer_vision_msgs_generate_messages_nodejs: plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : spencer_vision_msgs_generate_messages_nodejs
@@ -103,10 +103,10 @@ plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vis
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/cc/ros/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros/project250529/src /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros/project250529/build /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ros_ws/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros_ws/project250529/src /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros_ws/project250529/build /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_nodejs.dir/depend
 

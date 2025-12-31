@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/share/roseus/ros/spencer_control_msgs/manifest.l"
-  "/home/cc/ros/project250529/devel/share/roseus/ros/spencer_control_msgs/msg/ComponentStatus.l"
+  "/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_control_msgs/manifest.l"
+  "/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_control_msgs/msg/ComponentStatus.l"
   "CMakeFiles/spencer_control_msgs_generate_messages_eus"
 )
 

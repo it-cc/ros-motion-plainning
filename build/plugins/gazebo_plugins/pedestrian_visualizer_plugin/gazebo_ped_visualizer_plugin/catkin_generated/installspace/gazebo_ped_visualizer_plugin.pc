@@ -1,4 +1,4 @@
-prefix=/home/cc/ros/project250529/install
+prefix=/home/cc/ros_ws/project250529/install
 
 Name: gazebo_ped_visualizer_plugin
 Description: Description of gazebo_ped_visualizer_plugin

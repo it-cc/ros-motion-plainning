@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ros/project250529/src/core/trajectory_planner
+# Install script for directory: /home/cc/ros_ws/project250529/src/core/trajectory_planner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ros/project250529/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ros_ws/project250529/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros/project250529/build/core/trajectory_planner/catkin_generated/installspace/trajectory_planner.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros_ws/project250529/build/core/trajectory_planner/catkin_generated/installspace/trajectory_planner.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_planner/cmake" TYPE FILE FILES
-    "/home/cc/ros/project250529/build/core/trajectory_planner/catkin_generated/installspace/trajectory_plannerConfig.cmake"
-    "/home/cc/ros/project250529/build/core/trajectory_planner/catkin_generated/installspace/trajectory_plannerConfig-version.cmake"
+    "/home/cc/ros_ws/project250529/build/core/trajectory_planner/catkin_generated/installspace/trajectory_plannerConfig.cmake"
+    "/home/cc/ros_ws/project250529/build/core/trajectory_planner/catkin_generated/installspace/trajectory_plannerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_planner" TYPE FILE FILES "/home/cc/ros/project250529/src/core/trajectory_planner/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/trajectory_planner" TYPE FILE FILES "/home/cc/ros_ws/project250529/src/core/trajectory_planner/package.xml")
 endif()
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/python3/dist-packages/gazebo_sfm_plugin/srv/__init__.py"
-  "/home/cc/ros/project250529/devel/lib/python3/dist-packages/gazebo_sfm_plugin/srv/_ped_state.py"
+  "/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/gazebo_sfm_plugin/srv/__init__.py"
+  "/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/gazebo_sfm_plugin/srv/_ped_state.py"
   "CMakeFiles/gazebo_sfm_plugin_generate_messages_py"
 )
 

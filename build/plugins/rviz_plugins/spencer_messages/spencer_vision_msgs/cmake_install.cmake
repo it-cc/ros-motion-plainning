@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs
+# Install script for directory: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ros/project250529/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ros_ws/project250529/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,57 +39,57 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/msg" TYPE FILE FILES
-    "/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg"
-    "/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg"
-    "/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg"
-    "/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg"
+    "/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg"
+    "/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg"
+    "/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg"
+    "/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES "/home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES "/home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/cc/ros/project250529/devel/include/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/cc/ros_ws/project250529/devel/include/spencer_vision_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/cc/ros/project250529/devel/share/roseus/ros/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/cc/ros/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/cc/ros_ws/project250529/devel/lib/python3/dist-packages/spencer_vision_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES "/home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES "/home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES
-    "/home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgsConfig.cmake"
-    "/home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgsConfig-version.cmake"
+    "/home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgsConfig.cmake"
+    "/home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs" TYPE FILE FILES "/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs" TYPE FILE FILES "/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/package.xml")
 endif()
 

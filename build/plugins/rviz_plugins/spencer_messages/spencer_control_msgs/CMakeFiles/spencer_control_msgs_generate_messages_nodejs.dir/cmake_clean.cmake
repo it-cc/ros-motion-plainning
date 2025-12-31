@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js"
+  "/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_control_msgs/msg/ComponentStatus.js"
   "CMakeFiles/spencer_control_msgs_generate_messages_nodejs"
 )
 

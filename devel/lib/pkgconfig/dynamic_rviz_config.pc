@@ -1,4 +1,4 @@
-prefix=/home/cc/ros/project250529/devel
+prefix=/home/cc/ros_ws/project250529/devel
 
 Name: dynamic_rviz_config
 Description: Description of dynamic_rviz_config

@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ros/project250529/src/plugins/dynamic_rviz_config
+# Install script for directory: /home/cc/ros_ws/project250529/src/plugins/dynamic_rviz_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ros/project250529/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ros_ws/project250529/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros/project250529/build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_config.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros_ws/project250529/build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_config.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamic_rviz_config/cmake" TYPE FILE FILES
-    "/home/cc/ros/project250529/build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_configConfig.cmake"
-    "/home/cc/ros/project250529/build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_configConfig-version.cmake"
+    "/home/cc/ros_ws/project250529/build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_configConfig.cmake"
+    "/home/cc/ros_ws/project250529/build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_configConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamic_rviz_config" TYPE FILE FILES "/home/cc/ros/project250529/src/plugins/dynamic_rviz_config/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamic_rviz_config" TYPE FILE FILES "/home/cc/ros_ws/project250529/src/plugins/dynamic_rviz_config/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamic_rviz_config" TYPE PROGRAM FILES "/home/cc/ros/project250529/build/plugins/dynamic_rviz_config/catkin_generated/installspace/rviz_generate.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamic_rviz_config" TYPE PROGRAM FILES "/home/cc/ros_ws/project250529/build/plugins/dynamic_rviz_config/catkin_generated/installspace/rviz_generate.py")
 endif()
 

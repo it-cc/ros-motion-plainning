@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/libPedestrianVisualPlugin.pdb"
-  "/home/cc/ros/project250529/devel/lib/libPedestrianVisualPlugin.so"
+  "/home/cc/ros_ws/project250529/devel/lib/libPedestrianVisualPlugin.pdb"
+  "/home/cc/ros_ws/project250529/devel/lib/libPedestrianVisualPlugin.so"
   "CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o"
 )
 

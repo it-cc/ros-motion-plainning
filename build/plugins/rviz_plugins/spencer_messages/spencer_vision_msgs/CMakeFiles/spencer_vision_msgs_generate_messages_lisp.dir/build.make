@@ -43,56 +43,56 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ros/project250529/src
+CMAKE_SOURCE_DIR = /home/cc/ros_ws/project250529/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ros/project250529/build
+CMAKE_BINARY_DIR = /home/cc/ros_ws/project250529/build
 
 # Utility rule file for spencer_vision_msgs_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/progress.make
 
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp: /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp: /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp: /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp
-plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp: /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp: /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp: /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp: /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp
+plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp: /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp
 
 
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from spencer_vision_msgs/PersonImage.msg"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from spencer_vision_msgs/PersonImage.msg"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from spencer_vision_msgs/PersonImages.msg"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from spencer_vision_msgs/PersonImages.msg"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from spencer_vision_msgs/PersonROI.msg"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from spencer_vision_msgs/PersonROI.msg"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg
 
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
-/home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from spencer_vision_msgs/PersonROIs.msg"
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg -Ispencer_vision_msgs:/home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
+/home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from spencer_vision_msgs/PersonROIs.msg"
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg
 
 spencer_vision_msgs_generate_messages_lisp: plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp
-spencer_vision_msgs_generate_messages_lisp: /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp
-spencer_vision_msgs_generate_messages_lisp: /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp
-spencer_vision_msgs_generate_messages_lisp: /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp
-spencer_vision_msgs_generate_messages_lisp: /home/cc/ros/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp
+spencer_vision_msgs_generate_messages_lisp: /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImage.lisp
+spencer_vision_msgs_generate_messages_lisp: /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonImages.lisp
+spencer_vision_msgs_generate_messages_lisp: /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROI.lisp
+spencer_vision_msgs_generate_messages_lisp: /home/cc/ros_ws/project250529/devel/share/common-lisp/ros/spencer_vision_msgs/msg/PersonROIs.lisp
 spencer_vision_msgs_generate_messages_lisp: plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/build.make
 
 .PHONY : spencer_vision_msgs_generate_messages_lisp
@@ -103,10 +103,10 @@ plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vis
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/clean:
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/depend:
-	cd /home/cc/ros/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros/project250529/src /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros/project250529/build /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ros_ws/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros_ws/project250529/src /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros_ws/project250529/build /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vision_msgs_generate_messages_lisp.dir/depend
 

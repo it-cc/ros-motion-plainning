@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/lib/libcontroller.pdb"
-  "/home/cc/ros/project250529/devel/lib/libcontroller.so"
+  "/home/cc/ros_ws/project250529/devel/lib/libcontroller.pdb"
+  "/home/cc/ros_ws/project250529/devel/lib/libcontroller.so"
   "CMakeFiles/controller.dir/src/controller.cpp.o"
 )
 

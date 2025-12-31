@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/include/spencer_control_msgs/ComponentStatus.h"
+  "/home/cc/ros_ws/project250529/devel/include/spencer_control_msgs/ComponentStatus.h"
   "CMakeFiles/spencer_control_msgs_generate_messages_cpp"
 )
 

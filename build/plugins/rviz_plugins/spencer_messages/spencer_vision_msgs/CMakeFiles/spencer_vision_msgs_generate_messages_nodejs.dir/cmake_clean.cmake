@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js"
-  "/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js"
-  "/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js"
-  "/home/cc/ros/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js"
+  "/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImage.js"
+  "/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonImages.js"
+  "/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROI.js"
+  "/home/cc/ros_ws/project250529/devel/share/gennodejs/ros/spencer_vision_msgs/msg/PersonROIs.js"
   "CMakeFiles/spencer_vision_msgs_generate_messages_nodejs"
 )
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ros/project250529/src
+CMAKE_SOURCE_DIR = /home/cc/ros_ws/project250529/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ros/project250529/build
+CMAKE_BINARY_DIR = /home/cc/ros_ws/project250529/build
 
 # Utility rule file for spencer_social_relation_msgs_genlisp.
 
@@ -63,10 +63,10 @@ plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/sp
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/clean:
-	cd /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_social_relation_msgs_genlisp.dir/cmake_clean.cmake
+	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_social_relation_msgs_genlisp.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/depend:
-	cd /home/cc/ros/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros/project250529/src /home/cc/ros/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs /home/cc/ros/project250529/build /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs /home/cc/ros/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ros_ws/project250529/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ros_ws/project250529/src /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs /home/cc/ros_ws/project250529/build /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/depend
 

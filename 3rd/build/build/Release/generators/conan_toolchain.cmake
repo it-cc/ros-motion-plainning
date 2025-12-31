@@ -69,9 +69,9 @@ list(PREPEND CMAKE_INCLUDE_PATH "/home/cc/.conan/data/osqp/0.6.3/_/_/package/2af
 
 
 if (DEFINED ENV{PKG_CONFIG_PATH})
-set(ENV{PKG_CONFIG_PATH} "/home/cc/ros/project250529/3rd/build/build/Release/generators:$ENV{PKG_CONFIG_PATH}")
+set(ENV{PKG_CONFIG_PATH} "/home/cc/ros_ws/project250529/3rd/build/build/Release/generators:$ENV{PKG_CONFIG_PATH}")
 else()
-set(ENV{PKG_CONFIG_PATH} "/home/cc/ros/project250529/3rd/build/build/Release/generators:")
+set(ENV{PKG_CONFIG_PATH} "/home/cc/ros_ws/project250529/3rd/build/build/Release/generators:")
 endif()
 
 

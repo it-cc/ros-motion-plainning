@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ros/project250529/src/core/path_planner/path_processor
+# Install script for directory: /home/cc/ros_ws/project250529/src/core/path_planner/path_processor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ros/project250529/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ros_ws/project250529/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros/project250529/build/core/path_planner/path_processor/catkin_generated/installspace/path_processor.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ros_ws/project250529/build/core/path_planner/path_processor/catkin_generated/installspace/path_processor.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/path_processor/cmake" TYPE FILE FILES
-    "/home/cc/ros/project250529/build/core/path_planner/path_processor/catkin_generated/installspace/path_processorConfig.cmake"
-    "/home/cc/ros/project250529/build/core/path_planner/path_processor/catkin_generated/installspace/path_processorConfig-version.cmake"
+    "/home/cc/ros_ws/project250529/build/core/path_planner/path_processor/catkin_generated/installspace/path_processorConfig.cmake"
+    "/home/cc/ros_ws/project250529/build/core/path_planner/path_processor/catkin_generated/installspace/path_processorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/path_processor" TYPE FILE FILES "/home/cc/ros/project250529/src/core/path_planner/path_processor/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/path_processor" TYPE FILE FILES "/home/cc/ros_ws/project250529/src/core/path_planner/path_processor/package.xml")
 endif()
 

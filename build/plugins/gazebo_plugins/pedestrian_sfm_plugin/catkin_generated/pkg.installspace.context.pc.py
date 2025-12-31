@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "gazebo_ros;roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lPedestrianSFMPlugin".split(';') if "-lPedestrianSFMPlugin" != "" else []
 PROJECT_NAME = "gazebo_sfm_plugin"
-PROJECT_SPACE_DIR = "/home/cc/ros/project250529/install"
+PROJECT_SPACE_DIR = "/home/cc/ros_ws/project250529/install"
 PROJECT_VERSION = "1.0.0"

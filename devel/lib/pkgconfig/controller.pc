@@ -1,8 +1,8 @@
-prefix=/home/cc/ros/project250529/devel
+prefix=/home/cc/ros_ws/project250529/devel
 
 Name: controller
 Description: Description of controller
 Version: 0.0.0
-Cflags: -I/home/cc/ros/project250529/src/core/controller/controller/include
+Cflags: -I/home/cc/ros_ws/project250529/src/core/controller/controller/include
 Libs: -L${prefix}/lib -lcontroller
 Requires: common

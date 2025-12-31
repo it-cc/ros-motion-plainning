@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "urdf;xacro".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "sim_env"
-PROJECT_SPACE_DIR = "/home/cc/ros/project250529/install"
+PROJECT_SPACE_DIR = "/home/cc/ros_ws/project250529/install"
 PROJECT_VERSION = "0.0.1"

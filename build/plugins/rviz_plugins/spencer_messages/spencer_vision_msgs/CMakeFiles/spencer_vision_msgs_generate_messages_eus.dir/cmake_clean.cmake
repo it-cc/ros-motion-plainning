@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/cc/ros/project250529/devel/share/roseus/ros/spencer_vision_msgs/manifest.l"
-  "/home/cc/ros/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonImage.l"
-  "/home/cc/ros/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonImages.l"
-  "/home/cc/ros/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROI.l"
-  "/home/cc/ros/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROIs.l"
+  "/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/manifest.l"
+  "/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonImage.l"
+  "/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonImages.l"
+  "/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROI.l"
+  "/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROIs.l"
   "CMakeFiles/spencer_vision_msgs_generate_messages_eus"
 )
 

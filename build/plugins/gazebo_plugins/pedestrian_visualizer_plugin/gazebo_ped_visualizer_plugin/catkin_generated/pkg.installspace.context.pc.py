@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "gazebo_ros;roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lPedestrianVisualPlugin".split(';') if "-lPedestrianVisualPlugin" != "" else []
 PROJECT_NAME = "gazebo_ped_visualizer_plugin"
-PROJECT_SPACE_DIR = "/home/cc/ros/project250529/install"
+PROJECT_SPACE_DIR = "/home/cc/ros_ws/project250529/install"
 PROJECT_VERSION = "0.1.0"
