@@ -7,8 +7,6 @@ Panels:
         - /Maps1/expand_map1
         - /Path_global1
         - /Path_local1
-        - /Map_local1
-        - /Map_global1
       Splitter Ratio: 0.5
     Tree Height: 712
   - Class: rviz/Selection
@@ -419,26 +417,6 @@ Visualization Manager:
       Topic: /move_base/DWAPlannerROS/local_plan
       Unreliable: false
       Value: true
-    - Alpha: 0.699999988079071
-      Class: rviz/Map
-      Color Scheme: map
-      Draw Behind: false
-      Enabled: true
-      Name: Map_local
-      Topic: /move_base/local_costmap/costmap
-      Unreliable: false
-      Use Timestamp: false
-      Value: true
-    - Alpha: 0.699999988079071
-      Class: rviz/Map
-      Color Scheme: costmap
-      Draw Behind: false
-      Enabled: true
-      Name: Map_global
-      Topic: /move_base/global_costmap/costmap
-      Unreliable: false
-      Use Timestamp: false
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -462,7 +440,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 9.647791862487793
+      Distance: 11.927918434143066
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1

@@ -6,7 +6,7 @@
 
   <!-- Simulation Environment Arguments -->
   <arg name="world" default="warehouse" />
-  <arg name="map" default="map" />
+  <arg name="map" default="warehouse" />
   <arg name="robot" default="turtlebot3_waffle" />
   <arg name="robot_x" default="0.0" />
   <arg name="robot_y" default="0.0" />
