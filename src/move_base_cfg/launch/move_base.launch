@@ -1,0 +1,72 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="cmd_vel_topic" default="/cmd_vel" />
+  <arg name="odom_topic" default="odom" />
+  <arg name="move_forward_only" default="false"/>
+
+  <!-- Simulation Environment Arguments -->
+  <arg name="world" default="warehouse" />
+  <arg name="map" default="map" />
+  <arg name="robot" default="turtlebot3_waffle" />
+  <arg name="robot_x" default="0.0" />
+  <arg name="robot_y" default="0.0" />
+  <arg name="robot_z" default="0.0" />
+  <arg name="robot_yaw" default="0.0" />
+
+  <!-- 1. Start Gazebo with a specific world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find sim_env)/worlds/$(arg world).world" />
+    <arg name="paused" value="false" />
+    <arg name="use_sim_time" value="true" />
+    <arg name="gui" value="true" />
+    <arg name="headless" value="false" />
+    <arg name="debug" value="false" />
+  </include>
+
+  <!-- 2. Start Map Server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find sim_env)/maps/$(arg map)/$(arg map).yaml" />
+
+  <!-- 3. Robot Description and Spawning -->
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find sim_env)/urdf/$(arg robot)/$(arg robot).xacro" />
+
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+        args="-urdf -x $(arg robot_x) -y $(arg robot_y) -z $(arg robot_z) -Y $(arg robot_yaw) -model $(arg robot) -param robot_description" />
+
+  <!-- 4. State Publishers -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen" />
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" output="screen" />
+
+  <!-- 5. Localization (AMCL) -->
+  <include file="$(find sim_env)/launch/include/location/location.launch.xml">
+      <arg name="robot" value="$(arg robot)" />
+      <arg name="robot_namespace" value="" />
+      <arg name="start_ns" value="false" />
+      <arg name="robot_x" value="$(arg robot_x)" />
+      <arg name="robot_y" value="$(arg robot_y)" />
+      <arg name="robot_z" value="$(arg robot_z)" />
+      <arg name="method" value="amcl" />
+  </include>
+
+  <!-- 6. RViz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find sim_env)/rviz/sim_env.rviz" />
+
+  <!-- move_base -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <param name="base_global_planner" value="global_planner/GlobalPlanner" />
+    <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
+
+    <param name="GlobalPlanner/use_dijkstra" value="true" />
+    <param name="GlobalPlanner/use_gridline" value="true" />
+
+    <rosparam file="$(find move_base_cfg)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find move_base_cfg)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find move_base_cfg)/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find move_base_cfg)/config/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find move_base_cfg)/config/move_base_params.yaml" command="load" />
+    <rosparam file="$(find move_base_cfg)/config/dwa_local_planner_params.yaml" command="load" />
+    
+    <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
+    <remap from="odom" to="$(arg odom_topic)"/>
+    <param name="DWAPlannerROS/min_vel_x" value="0.0" if="$(arg move_forward_only)" />
+  </node>
+</launch>

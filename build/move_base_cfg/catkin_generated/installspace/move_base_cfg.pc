@@ -1,0 +1,8 @@
+prefix=/home/cc/ros_ws/project250529/install
+
+Name: move_base_cfg
+Description: Description of move_base_cfg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

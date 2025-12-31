@@ -35,6 +35,6 @@ obstacle_layer:
     inf_is_valid: true
 
 inflation_layer:
-  enabled: true
+  enabled: false
   cost_scaling_factor: 1 
   inflation_radius: 0.2

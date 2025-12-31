@@ -1035,6 +1035,12 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
+//Value Computed by CMake
+move_base_cfg_BINARY_DIR:STATIC=/home/cc/ros_ws/project250529/build/move_base_cfg
+
+//Value Computed by CMake
+move_base_cfg_SOURCE_DIR:STATIC=/home/cc/ros_ws/project250529/src/move_base_cfg
+
 //The directory containing a CMake configuration file for nav_core.
 nav_core_DIR:PATH=/opt/ros/noetic/share/nav_core/cmake
 
@@ -1505,7 +1511,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=24
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

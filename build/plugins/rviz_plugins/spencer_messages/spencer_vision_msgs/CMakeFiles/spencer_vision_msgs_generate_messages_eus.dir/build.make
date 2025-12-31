@@ -62,8 +62,8 @@ plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vis
 
 /home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonImage.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonImage.l: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg
-/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonImage.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonImage.l: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonImage.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from spencer_vision_msgs/PersonImage.msg"
 	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg
 
@@ -84,8 +84,8 @@ plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/spencer_vis
 /home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROIs.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROIs.l: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg
 /home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROIs.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROIs.l: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
 /home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROIs.l: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+/home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg/PersonROIs.l: /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ros_ws/project250529/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from spencer_vision_msgs/PersonROIs.msg"
 	cd /home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg -Ispencer_vision_msgs:/home/cc/ros_ws/project250529/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_vision_msgs -o /home/cc/ros_ws/project250529/devel/share/roseus/ros/spencer_vision_msgs/msg
 

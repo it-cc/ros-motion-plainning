@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("plugins/dynamic_xml_config")
+subdirs("move_base_cfg")
 subdirs("plugins/dynamic_rviz_config")
 subdirs("plugins/rviz_plugins/spencer_messages/spencer_control_msgs")
 subdirs("plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs")

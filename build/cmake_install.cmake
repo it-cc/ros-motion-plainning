@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/cc/ros_ws/project250529/build/gtest/cmake_install.cmake")
   include("/home/cc/ros_ws/project250529/build/plugins/dynamic_xml_config/cmake_install.cmake")
+  include("/home/cc/ros_ws/project250529/build/move_base_cfg/cmake_install.cmake")
   include("/home/cc/ros_ws/project250529/build/plugins/dynamic_rviz_config/cmake_install.cmake")
   include("/home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/cmake_install.cmake")
   include("/home/cc/ros_ws/project250529/build/plugins/rviz_plugins/spencer_messages/spencer_human_attribute_msgs/cmake_install.cmake")
