@@ -1,3 +1,10 @@
 {
-    "cmake.sourceDirectory": "/home/cc/ros_ws/project250529/src"
+    "cmake.sourceDirectory": "/home/cc/ros_ws/project250529/src",
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
 }
